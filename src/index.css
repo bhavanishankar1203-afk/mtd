@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #0B1726;
+    --color-dark: #111827;
+    --color-primary: #1677C8;
+    --color-primary-dark: #125ea0;
+    --color-light-blue: #EAF4FB;
+    --color-surface: #0e1d2f;
+    --color-white: #FFFFFF;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    color: #f3f4f6;
+    background-color: #0B1726;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom utility & range input styling for Before/After Slider */
+.slider-handle {
+  touch-action: none;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  pointer-events: auto;
+}
+

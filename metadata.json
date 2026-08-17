@@ -1,0 +1,6 @@
+{
+  "name": "MTD Heating",
+  "description": "Professional HVAC, new construction installations, mini splits, and heating & cooling services in Shelley, Idaho.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
